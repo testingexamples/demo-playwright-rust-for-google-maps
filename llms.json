@@ -1,0 +1,31 @@
+{
+  "name": "demo-playwright-rust-for-google-maps",
+  "summary": "A Rust + playwright-rs test-pattern demo for Google Maps: real assertions, never executed against the live site.",
+  "description": "This repo demonstrates playwright-rs syntax and interaction patterns against Google Maps using three real assertion-based test functions: a page title check, a search-updates-URL check, and a zoom-in-increases-URL-zoom-parameter check. Google's Terms of Service restrict automated querying of its services, including Google Maps, so this code is never compiled, checked, or run against the live site; see README.md and AGENTS.md.",
+  "repository": "https://github.com/testingexamples/demo-playwright-rust-for-google-maps/",
+  "license": "GPL-2.0-or-later",
+  "sections": [
+    {
+      "title": "Docs",
+      "links": [
+        { "title": "README", "url": "README.md", "description": "The Terms-of-Service caution, what this demo tests, install notes." },
+        { "title": "Spec", "url": "spec/index.md", "description": "The exact three test scenarios, selectors, and assertions, as the single source of truth." },
+        { "title": "Agent instructions", "url": "AGENTS.md", "description": "The non-negotiable never-execute-against-live-google.com rule." },
+        { "title": "Citation", "url": "CITATION.cff", "description": "How to cite this software." }
+      ]
+    },
+    {
+      "title": "Source",
+      "links": [
+        { "title": "demo.rs", "url": "src/demo.rs", "description": "The three playwright-rs test functions described in the spec." }
+      ]
+    },
+    {
+      "title": "Optional",
+      "links": [
+        { "title": "Google Maps example on testingexamples.github.io", "url": "https://testingexamples.github.io/examples/google-maps/", "description": "The nine-language-and-tool comparison page this demo's Rust example matches." },
+        { "title": "playwright-rs on crates.io", "url": "https://crates.io/crates/playwright-rs", "description": "The Rust crate this demo depends on." }
+      ]
+    }
+  ]
+}
